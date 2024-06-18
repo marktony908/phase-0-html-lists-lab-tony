@@ -1,0 +1,21 @@
+2024-06-17 10:25:39.699 [info] Log level: Info
+2024-06-17 10:25:39.699 [info] Validating found git in: "git"
+2024-06-17 10:25:40.285 [info] Using git "2.45.2" from "git"
+2024-06-17 10:25:41.152 [info] > git rev-parse --show-toplevel [805ms]
+2024-06-17 10:25:41.186 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-06-17 10:25:41.226 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-html-experiencing-html-lab
+2024-06-17 10:25:41.301 [info] > git rev-parse --show-toplevel [27ms]
+2024-06-17 10:25:41.320 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-17 10:25:41.368 [info] > git config --get commit.template [98ms]
+2024-06-17 10:25:44.148 [info] > git ls-files --stage -- /home/tony-mark/Development/code/se-prep/phase-0-html-experiencing-html-lab/mylist.txt [1775ms]
+2024-06-17 10:25:44.473 [info] > git check-ignore -v -z --stdin [2136ms]
+2024-06-17 10:25:45.060 [info] > git cat-file -s 7cb00b1d701f2cb05d037f37c5db2f13353d7249 [896ms]
+2024-06-17 10:25:45.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4208ms]
+2024-06-17 10:25:45.937 [info] > git show --textconv :mylist.txt [3590ms]
+2024-06-17 10:25:46.294 [info] > git status -z -uall [759ms]
+2024-06-17 10:25:46.371 [info] > git merge-base refs/heads/master refs/remotes/origin/master [42ms]
+2024-06-17 10:25:46.391 [info] > git config --get commit.template [21ms]
+2024-06-17 10:25:46.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-06-17 10:25:46.409 [info] > git status -z -uall [5ms]
+2024-06-17 10:25:46.634 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [246ms]
+2024-06-17 10:25:46.796 [info] > git diff --name-status -z --diff-filter=ADMR 13784f1a3f42ea6abcc88fa1bdf95343645b72db...refs/remotes/origin/master [156ms]

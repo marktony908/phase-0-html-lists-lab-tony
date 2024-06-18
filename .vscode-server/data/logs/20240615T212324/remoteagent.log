@@ -1,0 +1,22 @@
+2024-06-15 21:23:25.045 [info] 
+
+
+
+
+2024-06-15 21:23:25.045 [info] Extension host agent started.
+2024-06-15 21:23:25.144 [info] [127.0.0.1][05c0cabf][ManagementConnection] New connection established.
+2024-06-15 21:23:27.070 [info] [127.0.0.1][29f9ff0e][ExtensionHostConnection] New connection established.
+2024-06-15 21:23:27.080 [info] [127.0.0.1][29f9ff0e][ExtensionHostConnection] <46482> Launched Extension Host Process.
+2024-06-15 23:07:48.699 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-16 12:22:29.020 [info] [127.0.0.1][29f9ff0e][ExtensionHostConnection] The client has reconnected.
+2024-06-16 12:22:30.730 [info] [127.0.0.1][05c0cabf][ManagementConnection] The client has reconnected.
+2024-06-16 12:35:34.820 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-16 13:18:01.631 [info] [127.0.0.1][05c0cabf][ManagementConnection] The client has reconnected.
+2024-06-16 13:18:05.816 [info] [127.0.0.1][29f9ff0e][ExtensionHostConnection] The client has reconnected.
+2024-06-16 14:21:25.518 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-16 14:35:06.852 [info] [127.0.0.1][29f9ff0e][ExtensionHostConnection] The client has reconnected.
+2024-06-16 14:35:07.436 [info] [127.0.0.1][05c0cabf][ManagementConnection] The client has reconnected.
+2024-06-16 17:42:31.521 [info] [127.0.0.1][05c0cabf][ManagementConnection] The client has reconnected.
+2024-06-16 17:42:46.042 [info] [127.0.0.1][29f9ff0e][ExtensionHostConnection] The client has reconnected.
+2024-06-16 20:50:48.226 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-17 10:20:00.979 [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,33 @@
+2024-06-15 20:48:15.212 [info] Log level: Info
+2024-06-15 20:48:15.212 [info] Validating found git in: "git"
+2024-06-15 20:48:15.212 [info] Using git "2.45.2" from "git"
+2024-06-15 20:48:15.247 [info] > git rev-parse --show-toplevel [42ms]
+2024-06-15 20:48:15.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-15 20:48:15.255 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-15 20:48:15.255 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-15 20:48:15.384 [info] > git rev-parse --show-toplevel [121ms]
+2024-06-15 20:48:15.435 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2024-06-15 20:48:15.467 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade
+2024-06-15 20:48:15.541 [info] > git config --get commit.template [51ms]
+2024-06-15 20:48:15.544 [info] > git rev-parse --show-toplevel [56ms]
+2024-06-15 20:48:15.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2024-06-15 20:48:15.569 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-06-15 20:48:15.576 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-html-experiencing-html-lab
+2024-06-15 20:48:15.618 [info] > git config --get commit.template [7ms]
+2024-06-15 20:48:15.640 [info] > git status -z -uall [11ms]
+2024-06-15 20:48:15.670 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms]
+2024-06-15 20:48:15.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2024-06-15 20:48:15.677 [info] > git config --get commit.template [10ms]
+2024-06-15 20:48:15.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-06-15 20:48:15.713 [info] > git status -z -uall [13ms]
+2024-06-15 20:48:15.713 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [39ms]
+2024-06-15 20:48:15.773 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2024-06-15 20:48:15.799 [info] > git diff --name-status -z --diff-filter=ADMR 6b0d9cd56f7ad0b90258a79e7a5f046cc0c4c5bf...refs/remotes/origin/main [78ms]
+2024-06-15 20:48:15.806 [info] > git config --get commit.template [37ms]
+2024-06-15 20:48:15.819 [info] > git status -z -uall [14ms]
+2024-06-15 20:48:15.820 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [20ms]
+2024-06-15 20:48:15.856 [info] > git diff --name-status -z --diff-filter=ADMR 13784f1a3f42ea6abcc88fa1bdf95343645b72db...refs/remotes/origin/master [31ms]
+2024-06-15 20:48:15.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2024-06-15 20:48:15.917 [info] > git status -z -uall [20ms]
+2024-06-15 20:48:16.189 [info] > git check-ignore -v -z --stdin [13ms]
+2024-06-15 20:48:16.191 [info] > git check-ignore -v -z --stdin [8ms]

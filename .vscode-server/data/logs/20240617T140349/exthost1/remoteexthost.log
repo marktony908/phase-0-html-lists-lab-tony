@@ -1,0 +1,125 @@
+2024-06-17 14:03:56.112 [info] Extension host with pid 6272 started
+2024-06-17 14:03:56.182 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/50506b8698366a302639a5fc19e4234a/vscode.lock': Lock acquired.
+2024-06-17 14:03:56.355 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 14:03:56.372 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-06-17 14:03:56.456 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 14:03:56.457 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-17 14:03:57.293 [info] Eager extensions activated
+2024-06-17 14:03:57.293 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 14:03:57.294 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 14:03:57.295 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 14:03:58.520 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-17 14:04:08.229 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-06-17 14:07:14.857 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-06-17 14:07:14.859 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-06-17 14:07:19.582 [info] Extension host terminating: received terminate message from renderer
+2024-06-17 14:07:19.583 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/50506b8698366a302639a5fc19e4234a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-17 14:07:19.725 [error] Canceled: Canceled
+	at new A (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at n.O [as value] (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:945191)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:964275)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:153:4032)
+	at a.dispose (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at a.<anonymous> (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at f (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:9991)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:7867
+	at Array.map (<anonymous>)
+	at u.$ (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:7854)
+	at u.terminate (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:8127)
+	at f.terminate (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:178:8427)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at h.z (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:17638)
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:16019)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:12248)
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:11518)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:20497)
+	at n.acceptFrame (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:20303)
+	at g.n (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:18748)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:15675
+	at Socket.w (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:13305)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-06-17 14:07:19.733 [error] Canceled: Canceled
+	at new A (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:145:50615)
+	at E.U (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:152:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:152:3091)
+	at h.g (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199935)
+	at h.executeCommand (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at I.registerCommand.description (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:198697)
+	at h (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:200474)
+	at h.g (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199466)
+	at h.executeCommand (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:155:199373)
+	at Object.executeCommand (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:165:22742)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/github/dist/extension.js:2:322969)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/github/dist/extension.js:2:323928
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:1050764)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:964275)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:153:4032)
+	at a.dispose (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at a.<anonymous> (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:153:4129)
+	at f (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:9991)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:7867
+	at Array.map (<anonymous>)
+	at u.$ (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:7854)
+	at u.terminate (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:161:8127)
+	at f.terminate (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:178:10459)
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:178:8427)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at h.z (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:17638)
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:16019)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:12248)
+	at n.value (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:107:11518)
+	at l.y (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:20497)
+	at n.acceptFrame (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:20303)
+	at g.n (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:18748)
+	at /home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:15675
+	at Socket.w (/home/tony-mark/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/out/vs/workbench/api/node/extensionHostProcess.js:175:13305)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-06-17 14:07:19.733 [info] Extension host with pid 6272 exiting with code 0

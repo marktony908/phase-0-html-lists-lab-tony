@@ -1,0 +1,24 @@
+2024-06-17 23:00:31.444 [info] Log level: Info
+2024-06-17 23:00:31.444 [info] Validating found git in: "git"
+2024-06-17 23:00:31.446 [info] Using git "2.45.2" from "git"
+2024-06-17 23:00:31.452 [info] > git rev-parse --show-toplevel [305ms]
+2024-06-17 23:00:31.472 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2024-06-17 23:00:31.525 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-html-lists-lab
+2024-06-17 23:00:31.587 [info] > git rev-parse --show-toplevel [17ms]
+2024-06-17 23:00:31.970 [info] > git config --get commit.template [412ms]
+2024-06-17 23:00:31.974 [info] > git rev-parse --show-toplevel [331ms]
+2024-06-17 23:00:31.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [375ms]
+2024-06-17 23:00:31.994 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 23:00:32.059 [info] > git rev-parse refs/remotes/origin/master [64ms]
+2024-06-17 23:00:32.241 [info] > git status -z -uall [144ms]
+2024-06-17 23:00:32.416 [info] > git check-ignore -v -z --stdin [178ms]
+2024-06-17 23:00:32.418 [info] > git merge-base refs/heads/master refs/remotes/origin/master [154ms]
+2024-06-17 23:00:32.464 [info] > git config --get commit.template [52ms]
+2024-06-17 23:00:32.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-06-17 23:00:32.487 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 23:00:32.490 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [27ms]
+2024-06-17 23:00:32.509 [info] > git rev-parse refs/remotes/origin/master [22ms]
+2024-06-17 23:00:32.530 [info] > git status -z -uall [6ms]
+2024-06-17 23:00:32.595 [info] > git diff --name-status -z --diff-filter=ADMR 4baf1fb9d43b7c37f76fb06488d5a16c03683bf0...refs/remotes/origin/master [89ms]
+2024-06-17 23:10:00.876 [info] > git merge-base refs/heads/master refs/remotes/origin/master [6ms]
+2024-06-17 23:10:00.884 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [4ms]

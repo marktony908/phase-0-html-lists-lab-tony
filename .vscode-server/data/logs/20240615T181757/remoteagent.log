@@ -1,0 +1,35 @@
+2024-06-15 18:17:58.565 [info] 
+
+
+
+
+2024-06-15 18:17:58.636 [info] Extension host agent started.
+2024-06-15 18:18:00.062 [info] [127.0.0.1][0017f559][ManagementConnection] New connection established.
+2024-06-15 18:18:00.743 [info] [127.0.0.1][c3a85e7a][ExtensionHostConnection] New connection established.
+2024-06-15 18:18:00.893 [info] [127.0.0.1][c3a85e7a][ExtensionHostConnection] <6009> Launched Extension Host Process.
+2024-06-15 18:23:35.828 [info] [127.0.0.1][99ba12fe][ManagementConnection] New connection established.
+2024-06-15 18:23:37.537 [info] [127.0.0.1][5e24d86a][ExtensionHostConnection] New connection established.
+2024-06-15 18:23:37.608 [info] [127.0.0.1][5e24d86a][ExtensionHostConnection] <9728> Launched Extension Host Process.
+2024-06-15 18:23:58.133 [info] [127.0.0.1][0017f559][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-15 18:23:58.216 [info] [127.0.0.1][c3a85e7a][ExtensionHostConnection] <6009> Extension Host Process exited with code: 0, signal: null.
+2024-06-15 18:27:58.510 [info] Getting Manifest... ms-vscode.live-server
+2024-06-15 18:27:59.138 [info] Installing extension: ms-vscode.live-server file:///home/tony-mark/.vscode-server/extensions/extensions.json
+2024-06-15 18:28:13.650 [info] Extension signature verification result for ms-vscode.live-server: Success. Executed: true. Duration: 11347ms.
+2024-06-15 18:28:13.847 [info] Extracted extension to file:///home/tony-mark/.vscode-server/extensions/ms-vscode.live-server-0.4.13: ms-vscode.live-server
+2024-06-15 18:28:13.879 [info] Renamed to /home/tony-mark/.vscode-server/extensions/ms-vscode.live-server-0.4.13
+2024-06-15 18:28:14.168 [info] Extension installed successfully: ms-vscode.live-server file:///home/tony-mark/.vscode-server/extensions/extensions.json
+2024-06-15 18:28:39.444 [info] Getting Manifest... ritwickdey.liveserver
+2024-06-15 18:28:43.767 [info] Installing extension: ritwickdey.liveserver file:///home/tony-mark/.vscode-server/extensions/extensions.json
+2024-06-15 18:28:58.747 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1668ms.
+2024-06-15 18:29:10.075 [info] Extracted extension to file:///home/tony-mark/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-06-15 18:29:10.203 [info] Renamed to /home/tony-mark/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-06-15 18:29:10.463 [info] Extension installed successfully: ritwickdey.liveserver file:///home/tony-mark/.vscode-server/extensions/extensions.json
+2024-06-15 18:43:29.329 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 20:10:00.844 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 20:14:00.267 [info] [127.0.0.1][99ba12fe][ManagementConnection] The client has reconnected.
+2024-06-15 20:14:09.419 [info] [127.0.0.1][5e24d86a][ExtensionHostConnection] The client has reconnected.
+2024-06-15 20:48:10.113 [info] [127.0.0.1][981c99ad][ManagementConnection] New connection established.
+2024-06-15 20:48:11.263 [info] [127.0.0.1][8bebb191][ExtensionHostConnection] New connection established.
+2024-06-15 20:48:11.343 [info] [127.0.0.1][8bebb191][ExtensionHostConnection] <33777> Launched Extension Host Process.
+2024-06-15 20:49:32.150 [info] [127.0.0.1][981c99ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-15 20:49:32.342 [info] [127.0.0.1][8bebb191][ExtensionHostConnection] <33777> Extension Host Process exited with code: 0, signal: null.

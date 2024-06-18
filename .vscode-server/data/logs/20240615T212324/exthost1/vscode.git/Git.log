@@ -1,0 +1,21 @@
+2024-06-15 21:23:30.654 [info] Log level: Info
+2024-06-15 21:23:30.654 [info] Validating found git in: "git"
+2024-06-15 21:23:30.654 [info] Using git "2.45.2" from "git"
+2024-06-15 21:23:30.654 [info] > git rev-parse --show-toplevel [212ms]
+2024-06-15 21:23:30.654 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-06-15 21:23:30.654 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-html-experiencing-html-lab
+2024-06-15 21:23:30.684 [info] > git rev-parse --show-toplevel [17ms]
+2024-06-15 21:23:30.687 [info] > git config --get commit.template [26ms]
+2024-06-15 21:23:30.714 [info] > git rev-parse --show-toplevel [16ms]
+2024-06-15 21:23:30.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2024-06-15 21:23:30.785 [info] > git status -z -uall [34ms]
+2024-06-15 21:23:30.889 [info] > git merge-base refs/heads/master refs/remotes/origin/master [74ms]
+2024-06-15 21:23:30.909 [info] > git config --get commit.template [28ms]
+2024-06-15 21:23:30.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-06-15 21:23:30.943 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [38ms]
+2024-06-15 21:23:31.031 [info] > git status -z -uall [2ms]
+2024-06-15 21:23:31.037 [info] > git diff --name-status -z --diff-filter=ADMR 13784f1a3f42ea6abcc88fa1bdf95343645b72db...refs/remotes/origin/master [51ms]
+2024-06-15 21:23:31.177 [info] > git show --textconv :mylist.txt [9ms]
+2024-06-15 21:23:31.178 [info] > git ls-files --stage -- /home/tony-mark/Development/code/se-prep/phase-0-html-experiencing-html-lab/mylist.txt [4ms]
+2024-06-15 21:23:31.185 [info] > git cat-file -s 7cb00b1d701f2cb05d037f37c5db2f13353d7249 [4ms]
+2024-06-15 21:23:31.249 [info] > git check-ignore -v -z --stdin [6ms]

@@ -1,0 +1,30 @@
+2024-06-12 14:08:52.846 [info] Log level: Info
+2024-06-12 14:08:52.846 [info] Validating found git in: "git"
+2024-06-12 14:08:52.846 [info] Using git "2.34.1" from "git"
+2024-06-12 14:08:52.846 [info] > git rev-parse --show-toplevel [115ms]
+2024-06-12 14:08:52.846 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-12 14:08:52.850 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-12 14:08:52.886 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-06-12 14:08:52.938 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade
+2024-06-12 14:08:52.986 [info] > git config --get commit.template [19ms]
+2024-06-12 14:08:53.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [85ms]
+2024-06-12 14:08:53.077 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-12 14:08:53.119 [info] > git rev-parse refs/remotes/origin/main [43ms]
+2024-06-12 14:08:53.131 [info] > git status -z -uall [5ms]
+2024-06-12 14:08:53.176 [info] > git merge-base refs/heads/main refs/remotes/origin/main [34ms]
+2024-06-12 14:08:53.184 [info] > git config --get commit.template [8ms]
+2024-06-12 14:08:53.191 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [11ms]
+2024-06-12 14:08:53.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-06-12 14:08:53.204 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-12 14:08:53.212 [info] > git diff --name-status -z --diff-filter=ADMR a2ef352ab7fd8ca0811f0d4411502a3b5d1d0d26...refs/remotes/origin/main [16ms]
+2024-06-12 14:08:53.214 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-06-12 14:08:53.224 [info] > git status -z -uall [4ms]
+2024-06-12 14:08:53.590 [info] > git check-ignore -v -z --stdin [10ms]
+2024-06-12 14:17:36.637 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-12 14:17:36.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-12 21:50:09.953 [info] > git rev-parse --show-toplevel [519ms]
+2024-06-12 21:50:09.954 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-12 22:33:07.495 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/HEAD'
+2024-06-12 22:33:07.506 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/config'
+2024-06-12 22:33:07.526 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/HEAD'
+2024-06-12 22:33:07.540 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/config'

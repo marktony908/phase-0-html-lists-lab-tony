@@ -1,0 +1,21 @@
+2024-06-17 15:46:25.922 [info] 
+
+
+
+
+2024-06-17 15:46:25.922 [info] Extension host agent started.
+2024-06-17 15:46:26.009 [info] [127.0.0.1][0255200c][ManagementConnection] New connection established.
+2024-06-17 15:46:31.153 [info] [127.0.0.1][7ae8bfce][ExtensionHostConnection] New connection established.
+2024-06-17 15:46:31.481 [info] [127.0.0.1][7ae8bfce][ExtensionHostConnection] <31967> Launched Extension Host Process.
+2024-06-17 17:42:49.327 [info] [127.0.0.1][7ae8bfce][ExtensionHostConnection] The client has reconnected.
+2024-06-17 17:42:50.934 [info] [127.0.0.1][0255200c][ManagementConnection] The client has reconnected.
+2024-06-17 20:07:38.036 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-17 20:29:09.679 [info] [127.0.0.1][7ae8bfce][ExtensionHostConnection] The client has reconnected.
+2024-06-17 20:29:10.292 [info] [127.0.0.1][0255200c][ManagementConnection] The client has reconnected.
+2024-06-17 21:10:22.439 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-17 21:31:44.711 [info] [127.0.0.1][0255200c][ManagementConnection] The client has reconnected.
+2024-06-17 21:31:48.038 [info] [127.0.0.1][7ae8bfce][ExtensionHostConnection] The client has reconnected.
+2024-06-17 22:37:51.641 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-17 22:41:25.143 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-06-17 22:48:36.763 [info] [127.0.0.1][0255200c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-17 22:48:54.792 [info] [127.0.0.1][7ae8bfce][ExtensionHostConnection] <31967> Extension Host Process exited with code: 0, signal: null.

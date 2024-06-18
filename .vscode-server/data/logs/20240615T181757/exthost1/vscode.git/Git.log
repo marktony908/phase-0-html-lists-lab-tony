@@ -1,0 +1,47 @@
+2024-06-15 18:18:09.432 [info] Log level: Info
+2024-06-15 18:18:09.432 [info] Validating found git in: "git"
+2024-06-15 18:18:09.432 [info] Using git "2.45.2" from "git"
+2024-06-15 18:18:09.432 [info] > git rev-parse --show-toplevel [99ms]
+2024-06-15 18:18:09.432 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-06-15 18:18:09.432 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade
+2024-06-15 18:18:09.681 [info] > git rev-parse --show-toplevel [194ms]
+2024-06-15 18:18:09.683 [info] > git config --get commit.template [244ms]
+2024-06-15 18:18:09.767 [info] > git rev-parse --show-toplevel [64ms]
+2024-06-15 18:18:09.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-06-15 18:18:09.778 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-15 18:18:09.782 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-06-15 18:18:09.790 [info] > git status -z -uall [4ms]
+2024-06-15 18:18:09.816 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2024-06-15 18:18:09.823 [info] > git config --get commit.template [8ms]
+2024-06-15 18:18:09.824 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [4ms]
+2024-06-15 18:18:09.838 [info] > git diff --name-status -z --diff-filter=ADMR a2ef352ab7fd8ca0811f0d4411502a3b5d1d0d26...refs/remotes/origin/main [8ms]
+2024-06-15 18:18:09.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-06-15 18:18:09.845 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-15 18:18:09.847 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-06-15 18:18:09.855 [info] > git status -z -uall [4ms]
+2024-06-15 18:18:10.185 [info] > git check-ignore -v -z --stdin [9ms]
+2024-06-15 18:18:28.814 [info] > git config --get commit.template [11ms]
+2024-06-15 18:18:28.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-06-15 18:18:28.826 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-15 18:18:28.832 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-06-15 18:18:28.838 [info] > git check-ignore -v -z --stdin [6ms]
+2024-06-15 18:18:28.844 [info] > git status -z -uall [8ms]
+2024-06-15 18:18:36.213 [info] > git config --get commit.template [28ms]
+2024-06-15 18:18:36.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-06-15 18:18:36.227 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-15 18:18:36.237 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-06-15 18:18:36.259 [info] > git status -z -uall [12ms]
+2024-06-15 18:18:59.187 [info] > git config --get commit.template [21ms]
+2024-06-15 18:18:59.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-06-15 18:18:59.204 [warning] ENOENT: no such file or directory, open '/home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade/.git/refs/remotes/origin/main'
+2024-06-15 18:18:59.212 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-06-15 18:18:59.233 [info] > git status -z -uall [5ms]
+2024-06-15 18:18:59.248 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-06-15 18:18:59.256 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-06-15 18:18:59.264 [info] > git diff --name-status -z --diff-filter=ADMR a2ef352ab7fd8ca0811f0d4411502a3b5d1d0d26...refs/remotes/origin/main [3ms]
+2024-06-15 18:19:31.363 [info] > git config --get commit.template [7ms]
+2024-06-15 18:19:31.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-06-15 18:19:31.371 [info] > git status -z -uall [3ms]
+2024-06-15 18:19:31.383 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-06-15 18:19:31.393 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-06-15 18:19:31.404 [info] > git diff --name-status -z --diff-filter=ADMR 6b0d9cd56f7ad0b90258a79e7a5f046cc0c4c5bf...refs/remotes/origin/main [6ms]

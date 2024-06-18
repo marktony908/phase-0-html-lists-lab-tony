@@ -1,0 +1,21 @@
+2024-06-12 22:34:44.495 [info] Log level: Info
+2024-06-12 22:34:44.495 [info] Validating found git in: "git"
+2024-06-12 22:34:44.495 [info] Using git "2.34.1" from "git"
+2024-06-12 22:34:44.495 [info] > git rev-parse --show-toplevel [317ms]
+2024-06-12 22:34:44.495 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-12 22:34:44.495 [info] > git rev-parse --show-toplevel [14ms]
+2024-06-12 22:34:44.495 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-12 22:34:44.495 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-12 22:34:44.495 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-12 22:39:45.219 [info] > git rev-parse --show-toplevel [59ms]
+2024-06-12 22:39:45.239 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2024-06-12 22:39:45.261 [info] Open repository: /home/tony-mark/Development/code/se-prep/phase-0-completing-assignments-codegrade
+2024-06-12 22:39:45.277 [info] > git config --get commit.template [8ms]
+2024-06-12 22:39:45.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-06-12 22:39:45.279 [warning] No such branch: main.
+2024-06-12 22:39:45.287 [info] > git status -z -uall [1ms]
+2024-06-12 22:39:45.314 [info] > git config --get commit.template [3ms]
+2024-06-12 22:39:45.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-12 22:39:45.320 [warning] No such branch: main.
+2024-06-12 22:39:45.326 [info] > git status -z -uall [3ms]
+2024-06-12 22:39:45.889 [info] > git check-ignore -v -z --stdin [80ms]

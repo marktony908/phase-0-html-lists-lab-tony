@@ -1,0 +1,16 @@
+2024-06-15 18:23:39.261 [info] Extension host with pid 9728 started
+2024-06-15 18:23:39.365 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-15 18:23:39.396 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-06-15 18:23:39.531 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/3ae95d711a42e6bc46450de90ab57ad8/vscode.lock': Lock acquired.
+2024-06-15 18:23:39.589 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-15 18:23:39.590 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-15 18:23:40.292 [info] Eager extensions activated
+2024-06-15 18:23:40.292 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-15 18:23:40.293 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-15 18:23:40.694 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-15 18:26:08.040 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-06-15 18:29:10.690 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-06-15 18:29:29.483 [info] ExtensionService#_doActivateExtension ms-vscode.live-server, startup: false, activationEvent: 'onCommand:livePreview.start.externalDebugPreview.atFile'
+2024-06-15 18:29:29.749 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.debugLink'
+2024-06-15 18:29:30.416 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-15 18:29:31.291 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'

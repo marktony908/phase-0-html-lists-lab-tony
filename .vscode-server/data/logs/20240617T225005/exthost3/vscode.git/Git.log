@@ -1,0 +1,51 @@
+2024-06-17 23:13:32.800 [info] Log level: Info
+2024-06-17 23:13:32.800 [info] Validating found git in: "git"
+2024-06-17 23:13:32.800 [info] Using git "2.45.2" from "git"
+2024-06-17 23:13:32.813 [info] > git rev-parse --show-toplevel [96ms]
+2024-06-17 23:13:32.813 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:33.102 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-17 23:13:33.102 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:33.498 [info] > git rev-parse --show-toplevel [20ms]
+2024-06-17 23:13:33.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:33.728 [info] > git rev-parse --show-toplevel [154ms]
+2024-06-17 23:13:33.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:33.927 [info] > git rev-parse --show-toplevel [45ms]
+2024-06-17 23:13:33.927 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:33.938 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-17 23:13:33.938 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:34.037 [info] > git rev-parse --show-toplevel [5ms]
+2024-06-17 23:13:34.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:34.048 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-17 23:13:34.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 23:13:34.113 [info] > git rev-parse --show-toplevel [60ms]
+2024-06-17 23:13:34.119 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-06-17 23:13:34.135 [info] Open repository: /home/tony-mark/phase-0-html-tables-lab
+2024-06-17 23:13:34.331 [info] > git config --get commit.template [107ms]
+2024-06-17 23:13:34.780 [info] > git check-ignore -v -z --stdin [20ms]
+2024-06-17 23:13:35.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [694ms]
+2024-06-17 23:13:35.052 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-tables-lab/.git/refs/remotes/origin/master'
+2024-06-17 23:13:35.057 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2024-06-17 23:13:39.272 [info] > git status -z -uall [3777ms]
+2024-06-17 23:13:39.318 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2024-06-17 23:13:39.345 [info] > git config --get commit.template [29ms]
+2024-06-17 23:13:39.473 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [130ms]
+2024-06-17 23:13:39.505 [info] > git diff --name-status -z --diff-filter=ADMR 68698a5e6102cf1c1430a6d955e5169f06eb625f...refs/remotes/origin/master [15ms]
+2024-06-17 23:13:39.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-06-17 23:13:39.520 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-tables-lab/.git/refs/remotes/origin/master'
+2024-06-17 23:13:39.522 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-06-17 23:13:39.539 [info] > git status -z -uall [5ms]
+2024-06-17 23:16:10.084 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-17 23:16:10.094 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-06-17 23:16:10.104 [info] Open repository: /home/tony-mark
+2024-06-17 23:16:10.118 [info] > git config --get commit.template [1ms]
+2024-06-17 23:16:10.124 [info] No remotes found in the git config file.
+2024-06-17 23:16:10.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-06-17 23:16:10.125 [warning] No such branch: main.
+2024-06-17 23:16:10.652 [info] > git check-ignore -v -z --stdin [10ms]
+2024-06-17 23:16:10.655 [info] > git check-ignore -v -z --stdin [7ms]
+2024-06-17 23:16:13.488 [info] > git status -z -uall [3357ms]
+2024-06-17 23:16:15.425 [info] > git config --get commit.template [21ms]
+2024-06-17 23:16:15.445 [info] No remotes found in the git config file.
+2024-06-17 23:16:15.521 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2024-06-17 23:16:15.522 [warning] No such branch: main.
+2024-06-17 23:16:16.130 [info] > git status -z -uall [589ms]

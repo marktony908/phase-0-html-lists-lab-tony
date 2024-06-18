@@ -1,0 +1,16 @@
+2024-06-17 10:25:25.225 [info] Extension host with pid 132131 started
+2024-06-17 10:25:25.225 [error] Error: EEXIST: file already exists, open '/home/tony-mark/.vscode-server/data/User/workspaceStorage/3ae95d711a42e6bc46450de90ab57ad8/vscode.lock'
+2024-06-17 10:25:25.225 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/3ae95d711a42e6bc46450de90ab57ad8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-06-17 10:25:25.225 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-17 10:25:25.225 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-17 10:25:25.262 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/3ae95d711a42e6bc46450de90ab57ad8/vscode.lock': The pid 46482 appears to be gone.
+2024-06-17 10:25:25.262 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/3ae95d711a42e6bc46450de90ab57ad8/vscode.lock': Deleting a stale lock.
+2024-06-17 10:25:25.528 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 10:25:25.545 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-06-17 10:25:27.773 [info] Lock '/home/tony-mark/.vscode-server/data/User/workspaceStorage/3ae95d711a42e6bc46450de90ab57ad8/vscode.lock': Lock acquired.
+2024-06-17 10:25:28.192 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 10:25:28.193 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-17 10:25:36.125 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 10:25:36.142 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 10:25:36.179 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 10:25:40.295 [info] Eager extensions activated

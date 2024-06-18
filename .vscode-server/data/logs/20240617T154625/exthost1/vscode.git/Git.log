@@ -1,0 +1,74 @@
+2024-06-17 15:46:49.247 [info] Log level: Info
+2024-06-17 15:46:49.247 [info] Validating found git in: "git"
+2024-06-17 15:46:49.247 [info] Using git "2.45.2" from "git"
+2024-06-17 15:46:49.247 [info] > git rev-parse --show-toplevel [800ms]
+2024-06-17 15:46:49.248 [info] > git rev-parse --git-dir --git-common-dir [119ms]
+2024-06-17 15:46:49.264 [info] Open repository: /home/tony-mark/phase-0-html-lists-lab
+2024-06-17 15:46:49.281 [info] > git config --get commit.template [6ms]
+2024-06-17 15:46:49.285 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-17 15:46:49.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-06-17 15:46:49.300 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 15:46:49.302 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-17 15:46:49.312 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2024-06-17 15:46:49.333 [info] > git status -z -uall [12ms]
+2024-06-17 15:46:49.355 [info] > git merge-base refs/heads/master refs/remotes/origin/master [14ms]
+2024-06-17 15:46:49.363 [info] > git config --get commit.template [13ms]
+2024-06-17 15:46:49.366 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [6ms]
+2024-06-17 15:46:49.378 [info] > git diff --name-status -z --diff-filter=ADMR 4baf1fb9d43b7c37f76fb06488d5a16c03683bf0...refs/remotes/origin/master [7ms]
+2024-06-17 15:46:49.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-06-17 15:46:49.386 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 15:46:49.399 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2024-06-17 15:46:49.409 [info] > git status -z -uall [4ms]
+2024-06-17 15:46:49.845 [info] > git check-ignore -v -z --stdin [9ms]
+2024-06-17 15:46:49.943 [info] > git show --textconv :index.html [17ms]
+2024-06-17 15:46:49.951 [info] > git ls-files --stage -- /home/tony-mark/phase-0-html-lists-lab/index.html [12ms]
+2024-06-17 15:46:49.962 [info] > git cat-file -s 5d67e27330d436d6cc3bcd07f7519176a1b32f4f [4ms]
+2024-06-17 15:52:21.122 [info] > git config --get commit.template [7ms]
+2024-06-17 15:52:21.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-06-17 15:52:21.127 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 15:52:21.129 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-06-17 15:52:21.139 [info] > git status -z -uall [3ms]
+2024-06-17 15:52:21.213 [info] > git ls-files --stage -- /home/tony-mark/phase-0-html-lists-lab/index.html [2ms]
+2024-06-17 15:52:21.218 [info] > git cat-file -s 5d67e27330d436d6cc3bcd07f7519176a1b32f4f [2ms]
+2024-06-17 15:52:21.228 [info] > git show --textconv :index.html [2ms]
+2024-06-17 15:57:52.389 [info] > git config --get commit.template [5ms]
+2024-06-17 15:57:52.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-06-17 15:57:52.395 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 15:57:52.397 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-06-17 15:57:52.404 [info] > git status -z -uall [3ms]
+2024-06-17 15:57:52.508 [info] > git ls-files --stage -- /home/tony-mark/phase-0-html-lists-lab/index.html [3ms]
+2024-06-17 15:57:52.518 [info] > git cat-file -s 5d67e27330d436d6cc3bcd07f7519176a1b32f4f [4ms]
+2024-06-17 15:57:52.529 [info] > git show --textconv :index.html [3ms]
+2024-06-17 19:24:28.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2024-06-17 19:24:28.421 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 19:24:28.482 [info] > git config --get commit.template [120ms]
+2024-06-17 19:24:28.487 [info] > git rev-parse refs/remotes/origin/master [66ms]
+2024-06-17 19:24:28.564 [info] > git status -z -uall [71ms]
+2024-06-17 19:24:38.629 [info] > git config --get commit.template [23ms]
+2024-06-17 19:24:38.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-06-17 19:24:38.642 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/refs/remotes/origin/master'
+2024-06-17 19:24:38.644 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-06-17 19:24:38.655 [info] > git status -z -uall [5ms]
+2024-06-17 19:24:38.856 [info] > git ls-files --stage -- /home/tony-mark/phase-0-html-lists-lab/index.html [108ms]
+2024-06-17 19:24:38.947 [info] > git cat-file -s 4393d823677aaa7047f52522bc5650ee6bd5b8a1 [79ms]
+2024-06-17 19:24:39.076 [info] > git show --textconv :index.html [27ms]
+2024-06-17 22:47:23.337 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/HEAD'
+2024-06-17 22:47:23.384 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/config'
+2024-06-17 22:47:24.108 [info] > git config --get commit.template [489ms]
+2024-06-17 22:47:24.111 [info] > git ls-files --stage -- /home/tony-mark/phase-0-html-lists-lab/index.html [640ms]
+2024-06-17 22:47:24.111 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 22:47:24.267 [info] > git symbolic-ref --short HEAD [1030ms]
+2024-06-17 22:47:24.267 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 22:47:24.272 [info] > git remote --verbose [888ms]
+2024-06-17 22:47:24.272 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 22:47:24.417 [warning] ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/HEAD'
+2024-06-17 22:47:24.446 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/tony-mark/phase-0-html-lists-lab/.git/config'
+2024-06-17 22:47:24.454 [info] > git rev-parse HEAD [182ms]
+2024-06-17 22:47:24.454 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 22:47:24.511 [info] > git config --get commit.template [59ms]
+2024-06-17 22:47:24.511 [info] > git remote --verbose [65ms]
+2024-06-17 22:47:24.511 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 22:47:24.542 [info] > git symbolic-ref --short HEAD [141ms]
+2024-06-17 22:47:24.542 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-17 22:47:24.573 [info] > git rev-parse HEAD [21ms]
+2024-06-17 22:47:24.573 [info] fatal: not a git repository (or any of the parent directories): .git
